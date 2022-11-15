@@ -1,0 +1,98 @@
+ @charset "ISO-8859-1";
+  html,body,header{
+	height: 100vh;
+	font-family: 'josefin sans',sans-serif;
+	height: 100%;
+	background: url(../img/lab.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}  
+
+.view h1{
+	position: absolute;
+	top:55%;
+	left:30%;
+}
+
+
+/* .fixed-top{
+	padding: 5px 0 20px 8px;
+	
+}
+.fixed-top .navbar-nav li a{
+	font-size: 19px;
+	color:white;
+	transition:.5s ease-in-out;
+}
+.fixed-top .navbar-nav li a:hover{
+	color: yellow;
+} */
+/* #main-bar{
+	position: absolute;
+	width: 100%;
+	top:13%;
+	position: fixed;
+	z-index:1;
+}
+#main-bar .nav-item{
+	margin-left: 10px;
+	font-size: 17px;
+}
+.bg-navbar2-color{
+	background-color: black;
+}
+.navbar-nav li a{
+	color: black;
+	transition:0.5s;
+	font-family: 'Crimson Text', serif;
+} */
+ .footer{
+	background-color: black;
+	height: 50px;
+	color: white;
+	
+}
+.footer-col{
+	text-align: center;
+	padding: 0% 0% 0% 40%;
+} 
+.contact-Info{
+	margin-top: 10%;
+	padding: 10px 20px;
+	height: 100vh;
+}
+.contact-Info .contact{
+	font-family: 'Crimson Text', serif;
+	padding: 100px 50px;
+	justify-content: left;
+	font-size: 20px;
+}
+.register-Info{
+	margin-top: 10%;
+	padding: 10px 20px;
+	height: 200vh;
+}
+.register-Info .register{
+	font-family: 'Crimson Text', serif;
+	padding: 100px 50px;
+	justify-content: left;
+	font-size: 20px;
+} 
+.navbar-nav{
+
+min-height: 33px !important;
+margin-bottom: 0;
+border-radius: 0;
+}
+.navbar-nav > li > a, .navbar-brand{
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+    
+    height: 33px;
+}
+.navbar-center{
+ 	position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
