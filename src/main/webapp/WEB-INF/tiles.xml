@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Base define  -->
+ <definition name="base.definition" 
+        template="/WEB-INF/layouts/classic.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/basefragments/_header.jsp" />           
+        <put-attribute name="body" value="" /> 
+        <put-attribute name="footer" value="/WEB-INF/basefragments/_footer.jsp" />  
+ </definition> 
+ 
+    
+ <!-- Welcome Page  -->
+    <definition name="welcome" extends="base.definition">  
+        <put-attribute name="title" value="Welcome" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_welcome.jsp" />  
+    </definition>
+ <!-- About Us Page  -->
+    <definition name="about" extends="base.definition">  
+        <put-attribute name="title" value="About" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_about.jsp" />  
+    </definition>
+ <!-- Contact Us Page  -->
+    <definition name="contact" extends="base.definition">  
+        <put-attribute name="title" value="Contact Now" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_contact.jsp" />  
+    </definition> 
+ <!-- Login Page  -->
+    <definition name="login" extends="base.definition">  
+        <put-attribute name="title" value="Login" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_login.jsp" />  
+    </definition>  
+ <!-- User Register Page  -->
+    <definition name="register" extends="base.definition">  
+        <put-attribute name="title" value="User Register" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_register.jsp" />  
+    </definition>
+ <!-- Center Page  -->
+    <definition name="center" extends="base.definition">  
+        <put-attribute name="title" value="Center" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_center.jsp" />  
+    </definition>
+ <!-- Center list Page  -->
+    <definition name="centerList" extends="base.definition">  
+        <put-attribute name="title" value="Center List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_centerList.jsp" />  
+    </definition>
+ <!-- Test Page  -->
+    <definition name="test" extends="base.definition">  
+        <put-attribute name="title" value="Test" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_test.jsp" />  
+    </definition>
+ <!-- Test list Page  -->
+    <definition name="testList" extends="base.definition">  
+        <put-attribute name="title" value="Test List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_testList.jsp" />  
+    </definition>
+ <!-- Appointment Page  -->
+    <definition name="appointment" extends="base.definition">  
+        <put-attribute name="title" value="Appointment" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_appointment.jsp" />  
+    </definition>   
+ <!-- Confirm Appointment Page  -->
+    <definition name="confirmAppointment" extends="base.definition">  
+        <put-attribute name="title" value="Confirm Appointment" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_confirmAppointment.jsp" />  
+    </definition>
+ <!-- Appointment List Page  -->
+    <definition name="appointmentList" extends="base.definition">  
+        <put-attribute name="title" value="Appointment List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_appointmentList.jsp" />  
+    </definition>
+ <!-- Contact List Page  -->
+    <definition name="contactList" extends="base.definition">  
+        <put-attribute name="title" value="Contact List" />  
+        <put-attribute name="body" value="/WEB-INF/bodyfragments/_contactList.jsp" />  
+    </definition>                            
+</tiles-definitions>    
+    
